@@ -54,7 +54,7 @@ def drawAll(img,buttonList):
 
 #beacause we have more than one button, so we use class to store them
 class Button():
-    # this function run only one time begore the loop , so we make another function drao that will change in every loop 
+    # this function run only one time begin the loop , so we make another function draw that will change in every loop 
     def __init__(self,pos,text,size=[85,85]):
         self.pos = pos
         self.size = size
